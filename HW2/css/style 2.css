@@ -1,0 +1,20 @@
+#mune {
+    background: linear-gradient(rgb(57, 216, 255), rgb(40, 191, 236), rgb(25, 112, 139), rgb(16, 77, 98));
+}
+
+#footer{
+    background: linear-gradient(rgb(57, 216, 255), rgb(40, 191, 236), rgb(25, 112, 139), rgb(16, 77, 98));
+    border-top-color: rgb(141, 2, 2);
+}
+
+#footer-border-top{
+    color: rgb(191, 0, 0);
+}
+
+#card{
+    background: rgb(202, 245, 255)
+}
+
+#cardd{
+    background: rgb(202, 245, 255)
+}
