@@ -1,5 +1,6 @@
 body{
-    background: #000 url(../images/back_all.jpg) no-repeat center top; ;
+    background: #000 url(../End\ of\ term/background.jpg) no-repeat center top; 
+    background-size:cover;
 }
 
 #header{
@@ -25,9 +26,10 @@ body{
     padding-right: 30px;
 }
 #menu{
+    float: left;
     width: 620px;
     height: 40px;
-    background: linear-gradient(#de5b29 20%, #af3101 50%, #af3101 52%, #de5b29);
+    background: linear-gradient(#663c3c 20%, #9b7070 50%, #9b7070 52%, #663c3c);
     border: #fff solid 1px;
     border-radius: 10px;
 }
