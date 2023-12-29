@@ -73,6 +73,7 @@ div.polaroid {
     width: 100%;
     width: 350px;
     height: 232px;
+    filter: sepia(50%);
   }
   
   .overlay {
@@ -102,4 +103,25 @@ div.polaroid {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+
+  .pic{
+    width:500px; 
+    height:350px;
+    overflow:hidden;
+  }
+  .pic img{
+    transform:scale(1,1);
+    transition: all 0.5s ease-out;
+  }
+  .pic img:hover{transform:scale(1.2,1.2);}
+
+  .list-group{
+    background-color: #332522;
+    bottom: 100%;
+  }
+
+  #Footer{
+    font-family: cursive, "Microsoft JhengHei";
+    background: linear-gradient(#6e5858 20%, #3f2e2e);
   }
