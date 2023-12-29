@@ -55,3 +55,51 @@ body{
     font-family: cursive, "Microsoft JhengHei";
     color:rgb(95, 71, 64);
 }
+
+div.polaroid {
+    font-family: cursive, "Microsoft JhengHei";
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+  }
+
+  .container3 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    width: 350px;
+    height: 232px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #332522;
+    overflow: hidden;
+    width: 350px;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container3:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
